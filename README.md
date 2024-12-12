@@ -23,8 +23,6 @@ Features:
 3. Interactivity: The program includes a responsive design elements and hover effects to have an appeal for users
 
 How to use:
-
-In the folder "dave 2nd website" 
 the following files can be seen:
 
 "Dave Paunil pic"(jpg)
