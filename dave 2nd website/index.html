@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+</head>
+
+
+<body>
+    <header>
+        <h2 class ="logo">Dave Rowan V. Paunil</h2>
+        <nav class ="navigation">
+            <a href="#about me">About me</a>
+            <a href="#project">Projects and Skills</a>
+            <a href="#sdg">SDG</a>
+        </nav>
+        <a href="#contact" class="btn-contact"> Contact</a>
+     
+    </header>
+
+    <main>
+    <section id="about me" >
+        <div class="content">
+
+            <h2>Welcome to my porfolio</h2>
+            
+            <p>
+                Hi, I am Dave Rowan V. Paunil, a first year undergrad taking Computer Science at Batangas 
+                State University.  The onset of new technology has brought us innovative ways of dealing with 
+                problems and one way is through programming, hence ,I have become interested to be a part of this field.
+           </p>
+             <p>
+                In the long term, I aim to be a skilled software engineer who can develop effective 
+                programs that can make life simpler and enjoyable. I enjoy  the process of problem-solving and providing creative solutions especially with the help of current technology.
+            </p>
+
+            <img src="Dave Paunil pic.jpg" alt="Dave" class="profile-pic">
+            <div class="social-icons">
+                <a href="https://www.facebook.com/daverowanpaunil110/" target="_blank"><i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+   
+    <section id="project">
+        <div class="content">
+            <h2>Projects and Skills</h2>
+                 
+                <div class=" columns">
+                    <div class="column">
+                        <h3>Coding Projects</h3>
+                        <ul>
+                           <li>Simple Contact Management System in C++</li> 
+                                   <div class="contact-manager">
+                                        <img src="contact manager.jpg" alt="contact" class=" project-img">
+                                    </div>
+                                <p>One of the recent projects of the student was to create a Create ,Read, Update and Delete
+                                program in their programming course.In this project, a simple contact management system 
+                                was conceptualized by mainly focusing  on the usage of loops, arrays, and conditional statements.</p>
+                           <li>HTML and CSS Website Portfolio</li> 
+                              <div class="website-portfolio">
+                                <img src="website portfolio.png" alt="website" class="project-img">
+                              </div>
+                              <p>This project a simple demonstration of HTML and CSS where the student has to develop a their portfolio which contains key features of 
+                                a brief informatoin about them, their skills and projects, and contact information.
+                              </p>
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <h3>Skills</h3>
+                        <h4>Problem Solving</h4>
+                           <p> Strong analytical skills demonstrated through  previous competitive math contests which will be utilized in terms of programming.
+                    
+                            </p>
+                        <h4>Soft Skills:</h4>
+                        <p>
+                            Excellent communicator, consistently working effectively in collaborative and independent environments.
+                        </p>
+                    </div>
+                    </div>
+                </div>
+        </div>
+
+    </section>
+
+    <section id="sdg">
+        <div class="content">
+            <div>
+                <a href="#school">
+                    <i class="fa-solid fa-school school-logo"></i>
+                </a>
+             </div>
+            <h2>
+                Quality Education
+
+            </h2> 
+            <p>
+                Access to quality education is valuable to everyone hence, it is a right. 
+                Through scholarships that provide financial assistance, donation of school supplies,and free education,
+                were  the means of achieving this sustainable development goal. But when the internet  was introduced, a shift
+                to providing quality content online has been added as one of the impactful solutions. The distribution of globally accessible 
+                learning resources, communities have paved its way to a new way of learning.
+
+            </p>
+
+            <h3>
+                Let us share our knowledge online
+            </h3>
+
+
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="content">
+            <h2> Contact Me</h2>
+            <form action="submit_form.php" method="POST" class="contact-form">
+                <label for="name">Name:</label>
+                <input type ="text" id="name" name="name" placeholder="Your Name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+                <label for="message"> Message:</label>
+                <textarea id="message" name="message" placeholder="Your message" rows="5" required></textarea>
+           
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+
+    </section>
+
+    </main>
+</body>
+
+
+</html>
